@@ -56,8 +56,24 @@ body {
 
 .films3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
     text-align: center;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    margin: 0;
 }
 
 .beetlejuice {
